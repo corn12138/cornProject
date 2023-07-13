@@ -1,0 +1,35 @@
+{
+  "name": "back-end",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx rollup -c -w --bundleConfigAsCjs",
+    "start": "nodemon ./dist/bundle.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.22.5",
+    "@babel/plugin-proposal-class-properties": "^7.18.6",
+    "@babel/plugin-proposal-decorators": "^7.22.7",
+    "@babel/preset-env": "^7.22.5",
+    "@rollup/plugin-commonjs": "^25.0.2",
+    "@rollup/plugin-json": "^6.0.0",
+    "@rollup/plugin-node-resolve": "^15.1.0",
+    "babelrc-rollup": "^3.0.0",
+    "core-js": "^3.30.2",
+    "jsonwebtoken": "^9.0.1",
+    "koa": "^2.14.2",
+    "koa-bodyparser": "^4.4.1",
+    "koa-router": "^12.0.0",
+    "mysql2": "^3.5.1",
+    "rollup": "^3.26.2",
+    "rollup-plugin-babel": "^4.4.0",
+    "sequelize": "^6.32.1",
+    "sequelize-auto": "^0.8.8",
+    "sequelize-cli": "^6.6.1"
+  }
+}
